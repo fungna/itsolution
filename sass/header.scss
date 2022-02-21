@@ -1,0 +1,27 @@
+.header {
+    &__main {
+        height: 80px;
+    }
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    &:hover {
+        background-color: $color-hover;
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 15px;
+    font-weight: 500;
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: $color-primary;
+}

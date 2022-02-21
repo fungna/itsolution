@@ -1,0 +1,24 @@
+.team {
+    &__box {
+        padding: 30px;
+        border: 1px solid rgb(163, 163, 163);
+        border-radius: 5px;
+    }
+    &__box h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+.fa-brands {
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(41, 40, 40);
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+#team {
+    padding: 70px 0 100px 0;
+}

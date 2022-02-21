@@ -1,0 +1,47 @@
+.whyus__img {
+    height: 380px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.whyus__main {
+    padding: 80px 0;
+    background-image: linear-gradient(to bottom, #f7f7f7 60%, #fff 40%);
+}
+
+.whyus__logo {
+    margin-top: 3rem;
+}
+
+#whyus-bg1 {
+    background-image: url(../images/why-us-img-1.jpg);
+}
+
+#whyus-bg2 {
+    background-image: url(../images/why-us-img-2.jpg);
+}
+
+#whyus-bg3 {
+    background-image: url(../images/why-us-img-3.jpg);
+}
+
+.btn-whyus {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 80%;
+    text-transform: capitalize;
+    left: 10%;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    &:hover {
+        background-color: $color-primary;
+        color: #fff;
+    }
+}
