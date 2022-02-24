@@ -163,13 +163,14 @@
         .hero__content-desc {
             display: none;
         }
-        .btn {
-            font-size: 12px;
+        .hero__content .btn {
+            font-size: 13px;
+            padding: 8px 20px;
         }
-        .hero__content .btn,
         .btn-learn {
             font-size: 10px;
-            padding: 7px 4px;
+            padding: 7px 8px;
+            margin: 0;
         }
         .box {
             &-title {
@@ -268,9 +269,6 @@
             padding: 2px 6px;
             margin: 4px;
             font-size: 10px;
-        }
-        .fixed-top {
-            right: 12px;
         }
     }
     

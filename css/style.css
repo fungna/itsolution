@@ -1,13 +1,9 @@
 html {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
   font-family: "Roboto", sans-serif !important;
-  padding: 0;
-  margin: 0;
 }
 
 h1,
@@ -172,7 +168,7 @@ p {
   padding: 50px 0;
 }
 .about__content {
-  padding: 30px 0 0 40px;
+  padding-top: 30px;
 }
 
 .about__img {
@@ -584,14 +580,15 @@ p {
     display: none;
   }
 
-  .btn {
-    font-size: 12px;
+  .hero__content .btn {
+    font-size: 13px;
+    padding: 8px 20px;
   }
 
-  .hero__content .btn,
-.btn-learn {
+  .btn-learn {
     font-size: 10px;
-    padding: 7px 4px;
+    padding: 7px 8px;
+    margin: 0;
   }
 
   .box-title {
@@ -709,10 +706,6 @@ p {
     padding: 2px 6px;
     margin: 4px;
     font-size: 10px;
-  }
-
-  .fixed-top {
-    right: 12px;
   }
 }
 @media (min-width: 375px) and (max-width: 575px) {
