@@ -8,6 +8,12 @@ $desktop-width: 1200px;
     }
 }
 
+@mixin mobile-md {
+    @media (min-width: 375px) and (max-width: 575px) {
+        @content;
+    }
+}
+
 @mixin mobile-lg {
     @media (min-width: $mobile-width) and (max-width:#{$tablet-width-md - 1px}) {
         @content;
